@@ -1,94 +1,93 @@
 /* Global Styles */
 * {
-    box-sizing: border-box;
-  }
-  body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    color: #333;
-  }
-  
-  /* Header */
-  header {
-    text-align: center;
-    padding: 1.5rem 0;
-    background-color: rgba(0, 0, 0, 0.1);
-    color: #fff;
-  }
-  
-  /* Main Content */
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-  }
-  
-  /* Input Section */
-  .input-section {
-    background: rgba(255, 255, 255, 0.95);
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 500px;
-  }
-  #company-form {
-    display: flex;
-    gap: 10px;
-  }
-  #company-input {
-    flex: 1;
-    padding: 10px;
-    font-size: 16px;
-    border: 2px solid #ddd;
-    border-radius: 5px;
-  }
-  #company-form button {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    background: #667eea;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  #company-form button:hover {
-    background: #5a67d8;
-  }
-  
-  /* List Section */
-  .list-section {
-    margin-top: 2rem;
-    width: 100%;
-    max-width: 600px;
-  }
-  #company-list {
-    list-style: none;
-    padding: 0;
-  }
-  #company-list li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.97);
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  .remove-btn {
-    background: #e53e3e;
-    border: none;
-    color: #fff;
-    padding: 8px 12px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  .remove-btn:hover {
-    background: #c53030;
-  }
-  
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 1.5rem 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+/* Main Content */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Input Section */
+.input-section {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+#company-form {
+  display: flex;
+  gap: 10px;
+}
+#company-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+#company-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background: #667eea;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+#company-form button:hover {
+  background: #5a67d8;
+}
+
+/* List Section */
+.list-section {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 600px;
+}
+#company-list {
+  list-style: none;
+  padding: 0;
+}
+#company-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.97);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.remove-btn {
+  background: #e53e3e;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.remove-btn:hover {
+  background: #c53030;
+}
